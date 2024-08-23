@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="./assets/Logo.png" alt="logo de alura">
+    </header>
+    <main class="main">
+        <section class="texto__area">
+            <textarea class="texto__area__encriptar" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="frame">
+                <img src="/assets/Frame.png" alt="frame de informacion">
+            </div>
+            <div class="container__botones">
+                <button class="boton__encriptar" id="encriptar">Encriptar</button>
+                <button class="boton__desencriptar" id="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <div class="salida">
+                <div class="remover">
+                <img class="muneco" src="./assets/Muñeco.png" alt="Muñeco">
+                <p class="texto__salida_p">Ningun mensaje fue encontrado</p>
+                <p class="texto__salida_s">Ingrese el texto que desees encriptar o desencriptar.</p>
+                </div>
+                <textarea class="mensaje__salida" typeof="mensaje" readonly></textarea>
+                <button class="boton__copiar" type="submit">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="desarrollador">Desarrollado por Erik Jimenez Herrera</p>
+        <a class="iconos" href="https://github.com/Lordjimenez1">
+            <img class="iconos" src="./assets/icons8-github-96.png" alt="github">
+        </a>
+        <a class="iconos" href="https://linkedin.com/in/erik-jimenez-herrera">
+            <img class="iconos" src="./assets/icons8-linkedin-96.png" alt="linkedin">
+        </a>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
